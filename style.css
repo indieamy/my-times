@@ -55,45 +55,55 @@ nav a:hover {
   border-bottom: 3px solid MediumAquamarine;
 }
 /* Main Content */
-.content {
-  border: 2px solid #000;
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  border-bottom: 1px solid #000;
 }
 
 .column.large {
+  display: flex;
+  flex-wrap: wrap;
   width: 630px;
   border: 1px solid #000;
+  margin-right: 2em;
+}
+
+.main-story span {
+	border: 0.5px solid #000;
+}
+
+.main-story p {
+	padding: 2em 1em;
+}
+
+.articles {
+	border: 1px solid #000;
+}
+
+.articles h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.articles h2, p {
+	padding: 0.75em 0;
+}
+
+.story {
+	border: 1px solid #000;
 }
 
 .column.medium {
+  display: flex;
   width: 300px;
+  margin-right: 2em;
   border: 1px solid #000;
 }
 
 .column.small {
+  display: flex;
   width: 240px;
   border: 1px solid #000;
-}
-.main-story {
-  border: 1px solid #000;
-}
-.story {
-  border: 2px solid #000;
-}
-
-.title {
-  border: 1px solid #000;
-}
-
-h2 {
-  font-size: 1.5em;
-  font-weight: bold;
-  padding: 0.5em 0;
-}
-
-h3 {
-  font-weight: bold;
-}
-
-.text {
-  padding: 1em 0;
 }
