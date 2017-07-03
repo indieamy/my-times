@@ -107,6 +107,8 @@ nav a:hover {
 
 .story {
   display: flex;
+  flex-direction: column;
+  width: 300px;
   border: 1px solid #000;
   font-family: Georgia;
   font-size: 17px;
@@ -115,7 +117,6 @@ nav a:hover {
 }
 
 .story span {
-	display: inline-flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
