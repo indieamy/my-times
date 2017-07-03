@@ -107,14 +107,11 @@ nav a:hover {
 
 .story {
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 300px;
-    margin-top: 15px;
-    font-weight: bold;
-    font-size: 30px;
-    color: white;
-    text-align: center;
+  border: 1px solid #000;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  padding: 0.75em 0em;
 }
 
 .story span {
@@ -125,8 +122,21 @@ nav a:hover {
   color: white;
 }
 
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
 #earth {
-	background-image:url(images/img-story-2.png);
+  background-image:url(images/img-story-2.png);
 }
 
 #camera {
